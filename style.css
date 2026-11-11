@@ -92,3 +92,36 @@ button{
     border; none:
     padding 10px 15px;
 }
+
+button:hover {
+    background-color: var(--cor-hover);
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-curiosidades {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-tema {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    font-size: 22px;
+}
