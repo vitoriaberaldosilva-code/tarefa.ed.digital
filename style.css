@@ -103,6 +103,7 @@ button:hover {
     margin: 20px auto;
 }
 
+
 .galeria {
     display: flex;
     gap: 20px;
@@ -113,6 +114,8 @@ button:hover {
 .cards-curiosidades {
     display: flex;
     gap: 20px;
+
+
     flex-wrap: wrap;
 }
 
